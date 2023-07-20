@@ -44,8 +44,11 @@
   text-decoration: none;
 }
 #navbar ul li a:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
   color: black;
   background-color: white;
+  box-shadow: 2px 2px 2px wheat;
 }
 #home {
   display: flex;
@@ -95,10 +98,6 @@
 #services .box p {
   font-family: "Bree Serif", serif;
 }
-#services {
-}
-#services {
-}
 
 #client-section {
   height: 344px;
@@ -119,6 +118,10 @@
 }
 .client-item {
   padding: 34px;
+}
+.client-item:hover{
+  transition: all 0.3s;
+  transform: scale(1.2);
 }
 
 #clients img {
@@ -183,6 +186,11 @@ footer {
   font-size: 1.1rem;
   border-radius: 10px;
   cursor: pointer;
+}
+.btn:hover{
+  transition: all 0.3s;
+  transform: scale(1.1);
+  box-shadow: 2px 2px 2px wheat;
 }
 .center {
   text-align: center;
