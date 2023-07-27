@@ -160,6 +160,9 @@
   font-size: 1.3rem;
   font-family: "Bree Serif", serif;
 }
+.box{
+  transition: all 0.5s;
+}
 .box:hover{
   transition: all 0.5s;
   transform:scale(1.1);
